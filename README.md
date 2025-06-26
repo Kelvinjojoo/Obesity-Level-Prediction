@@ -10,11 +10,13 @@ This project predicts an individual's obesity level based on lifestyle and physi
 
 ## 📁 Project Structure
 ```
+├── Application Test.pdf # Documentation or testing instructions
 ├── Obesity.ipynb # Jupyter Notebook (EDA, training, etc.)
-├── Obesity.pkl # Trained Machine Learning model
-├── fastAPI.py # FastAPI backend
-├── Streamlit.py # Streamlit frontend
-└── README.md # Project documentation
+├── Obesity.pkl # Trained Machine Learning model (saved with pickle)
+├── ObesityDataSet1.csv # Original dataset used for training
+├── README.md # Project documentation
+├── Streamlit.py # Streamlit frontend app
+└── fastAPI.py # FastAPI backend API
 ```
 ---
 
